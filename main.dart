@@ -16,9 +16,9 @@ void main() {
 
   const order = ['pizza', 'water'];
 
-  void calculateOrder(List<String> myOrder, var menu) {
+  void calculateOrder(List<String> order, var menu) {
     num total = 0;
-    for (String item in myOrder) {
+    for (String item in order) {
       if (menu[item] == null) {
         return print('$item is not on the menu');
       }
