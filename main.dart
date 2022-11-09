@@ -24,9 +24,10 @@ void main() {
       }
       total += menu[item];
     }
-    print(total);
+    print('Total: KD${total}');
   }
 
   const wrongOrder = ['rice', 'pizza'];
+  calculateOrder(order, menu);
   calculateOrder(wrongOrder, menu);
 }
