@@ -9,8 +9,7 @@ void main() {
   menu['water'] = 0.75;
 
   void printMenu() {
-    print('Menu:');
-    print('');
+    print('Menu: \n');
     for (var element in menu.entries) {
       print('${element.key} -> ${element.value}KD');
     }
