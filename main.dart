@@ -8,11 +8,15 @@ void main() {
   menu['cholocolateCake'] = 3;
   menu['water'] = 0.75;
 
-  print('Menu:');
-  print('');
-  for (var element in menu.entries) {
-    print('${element.key} -> ${element.value}KD');
+  void printMenu() {
+    print('Menu:');
+    print('');
+    for (var element in menu.entries) {
+      print('${element.key} -> ${element.value}KD');
+    }
   }
+
+  printMenu();
 
   const order = ['pizza', 'water'];
 
